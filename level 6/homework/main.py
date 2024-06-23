@@ -26,4 +26,3 @@ user_address = input("Please enter your address:")
 user_email = input("Please enter your email:")
 
 print("Your inputed information is:",user_firstname,user_surname,user_age,user_address,user_email)
-
