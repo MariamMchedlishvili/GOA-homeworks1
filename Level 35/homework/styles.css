@@ -1,0 +1,68 @@
+.first {
+    color:blueviolet;
+    font-size:60px;
+    text-align: center;
+}
+
+.second{
+    color:rgb(75, 20, 126);
+    font-size: 30px;
+
+
+}
+
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+.container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+
+.container label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+.container label input[type="checkbox"] + span {
+    font-size: 14px;
+}
