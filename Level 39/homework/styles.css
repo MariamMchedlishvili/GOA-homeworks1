@@ -1,0 +1,39 @@
+.text1 {
+    text-decoration: underline solid;
+}
+
+.text2 {
+    text-decoration: underline dotted;
+}
+
+.text3 {
+    text-decoration: underline dashed;
+}
+
+.text4 {
+    text-decoration: underline double;
+}
+
+.text5 {
+    text-decoration: underline wavy;
+}
+
+.text6 {
+    text-decoration: underline solid rgb(255, 0, 0); /* Red underline */
+}
+
+.text7 {
+    text-decoration: underline dashed rgb(0, 128, 0); /* Green dashed underline */
+}
+
+.text8 {
+    text-decoration: underline dotted rgb(0, 0, 255); /* Blue dotted underline */
+}
+
+.text9 {
+    text-decoration: underline double #800080; /* Purple double underline */
+}
+
+.text10 {
+    text-decoration: underline wavy #FFA500; /* Orange wavy underline */
+}
