@@ -1,0 +1,42 @@
+th {
+    border:1px solid red;
+    background-color: red;
+   }
+table {
+       border-collapse: collapse;
+       width: 500px;
+   }
+
+
+tr:nth-child(odd) {
+    background-color: rgb(200, 196, 196);
+}
+
+
+.Second {
+    border:1px solid green;
+    background-color: green;
+   }
+table {
+       border-collapse: collapse;
+       width: 500px;
+   }
+
+
+tr:nth-child(odd) {
+    background-color: rgb(200, 196, 196);
+}
+
+.third {
+    border:1px solid blue;
+    background-color: blue;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+
+tr:nth-child(odd) {
+ background-color: rgb(200, 196, 196);
+}

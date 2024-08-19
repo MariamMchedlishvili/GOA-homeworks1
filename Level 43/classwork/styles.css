@@ -1,0 +1,15 @@
+th {
+ border:1px solid #019879;
+ background-color: #019879;
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+}
+td {
+    border:1px solid #626665;
+   }
+.table {
+    color:#019879;
+    background: #c9d1ce;
+}
