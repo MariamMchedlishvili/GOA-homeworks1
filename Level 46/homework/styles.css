@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.child {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.overlay-text {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+.child:nth-child(1) {
+    background-image: url('kr_Korea_Seoul_Bukchon-Hanok-Village_Ashutterstock_309071426.jpg');
+}
+
+.child:nth-child(2) {
+    background-image: url('images.jpg');
+}
+
+.child:nth-child(3) {
+    background-image: url('merlin_138493119_dc17f17f-96a2-4487-a9ea-214914926374-articleLarge.webp');
+}
+
+.child:nth-child(4) {
+    background-image: url('images\ \(1\).jpg');
+}
+
+.child:nth-child(5) {
+    background-image: url('images\ \(2\).jpg');
+}
+
+.child:nth-child(6) {
+    background-image: url('istockphoto-1390815938-612x612.jpg');
+}
