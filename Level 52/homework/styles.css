@@ -1,0 +1,78 @@
+
+/*
+transform კუთვნილება 2D და 3D ტრანსფორმაციისთვის ვიყენებთ
+translate - ირებს ორ მინშვნელობას: x, y  შესაბამისად უცვლის პოზიციას.
+scale - უცვლის ელემენს ზომას მნიშვნელობის შესაბამისად.
+rotate - ააბრუნებს ელემენტს გადაცემული ერთეულით: გრადუსით.
+transform-origin - წერტილი რომლიდანაც უნდა მოხდეს transform.
+
+*/
+#parent{
+    background-color: purple;
+    width:300px;
+    height:300px;
+}
+
+#parent:hover {
+    transform: translate(50px, 50px);
+}
+#parent:active {
+    transform: translate(0, 0);
+}
+
+
+
+#parent2{
+    background-color: rgb(245, 32, 245);
+    width:300px;
+    height:300px;
+}
+#parent2:hover {
+    transform: scale(1.5);
+}
+#parent2:active {
+    transform: scale(0.8);
+}
+
+
+
+#parent3{
+    background-color: rgb(212, 77, 212);
+    width:300px;
+    height:300px;
+}
+#parent3:hover {
+    transform: rotate(45deg);
+}
+#parent3:active {
+    transform: rotate(0deg);
+}
+
+
+
+
+
+#parent4{
+    background-color: purple;
+    width:300px;
+    height:300px;
+}
+#parent4:hover {
+    transform: skew(20deg, 10deg);
+}
+#parent4:active {
+    transform: skew(0deg, 0deg);
+}
+
+
+
+
+#parent5{
+    background-color: rgb(134, 65, 134);
+    width:300px;
+    height:300px;
+}
+#parent5:hover {
+    transform: rotate(30deg) skew(10deg, 10deg);
+    transform-origin: bottom right;
+}
