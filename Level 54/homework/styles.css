@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    font-size: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smileemoji {
+    position: absolute;
+    animation-name: beat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.emoji1 {
+    position: absolute;
+    opacity: 0;
+    animation-name: echo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes echo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: scale(2);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
