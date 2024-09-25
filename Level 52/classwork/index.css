@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    transition: transform 0.5s;
+    transform-origin: center; 
+}
+
+.block:hover {
+    transform: translate(50px, 30px) scale(1.2) rotate(45deg);
+}
+
+.block2 {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    transition: transform 0.5s;
+    transform-origin: -30px -30px; 
+}
+
+.block2:hover {
+    transform: translate(30px, 20px) scale(1.5) rotate(30deg) skew(15deg, 10deg);
+}
