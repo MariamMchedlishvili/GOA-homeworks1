@@ -42,16 +42,3 @@ for i in range(10):
 
 
 
-N = int(input("Enter the number of numbers (N): "))
-array = []
-
-
-print("Enter the numbers:")
-for i in range(N):
-    num = int(input("Enter number" + str(i + 1)))  
-    array.append(num)  
-
-
-print("Numbers in reverse order:")
-for i in range(N - 1, -1, -1): 
-    print(array[i])
